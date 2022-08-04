@@ -16,7 +16,7 @@ Afin de démarrer l'application (activation du serveur):
 
 2/ Exécuter la commande "npm install" depuis ce dossier
 
-2/ Creer dossier .env dans dossier back et coller :
+2/ Creer fichier .env dans dossier back et coller :
 
 MONGODB_URL = "Mat:Matthieu07"
 
@@ -33,6 +33,10 @@ REFRESH_TOKEN_SECRET = "itisalsosecret"
 1/ Se placer dans le dossier "client" en exécutant la commande "cd client"
 
 2/ Exécuter la commande "npm install" depuis ce dossier
+
+3/ Creer fichier .env dans dossier back et coller :
+
+REACT_APP_API_URL= "http://localhost:3001/"
 
 Afin de démarrer l'application (React):
 
