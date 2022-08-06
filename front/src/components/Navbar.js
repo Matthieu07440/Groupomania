@@ -35,7 +35,9 @@ const Navbar = () => {
                 <img src="./img/icons/home.svg" alt="home" />
               </NavLink>
             </li>
-            <LogOut />
+            <li>
+              <LogOut />
+            </li>
           </ul>
         ) : (
           <ul>
