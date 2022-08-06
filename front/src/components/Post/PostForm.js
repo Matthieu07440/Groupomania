@@ -80,16 +80,14 @@ const PostForm = () => {
             <div className="footer-form">
               <div className="icon">
                 <img src="./img/icons/picture.svg" alt="pic-acces" />
-                <label htmlFor="file-upload">
-                  image
-                  <input
-                    type="file"
-                    id="file-upload"
-                    name="file"
-                    encType=" multipart/form-data "
-                    onChange={(e) => handlePicture(e)}
-                  />
-                </label>
+                <label htmlFor="file-upload">image </label>
+                <input
+                  type="file"
+                  id="file-upload"
+                  name="file"
+                  encType=" multipart/form-data "
+                  onChange={(e) => handlePicture(e)}
+                />
               </div>
               <div className="btn-send">
                 {message || picture ? (
